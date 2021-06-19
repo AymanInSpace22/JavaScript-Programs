@@ -21,6 +21,8 @@ else{
 	console.log('ohh sad days:/');
 }
 
+let name = prompt('What is your name: ');
+console.log('Hello',name);
 console.log('you a bitch');
 </script>
 
