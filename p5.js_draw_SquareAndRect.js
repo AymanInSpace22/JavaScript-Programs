@@ -1,3 +1,11 @@
+// draw point and line
+// point() takes 2 params: (x,y)
+// line() takes 4 params: (x1,y1,x2,y2)
+
+
+
+
+
 // draw rect and square
 // rect() takes 4 parameters: (x, y, width, height)
 // square() takes 3 parameters: (x, y, width)
