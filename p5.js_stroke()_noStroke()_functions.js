@@ -42,3 +42,40 @@ function draw() {
          height/2 + shapeWidth, 
          shapeWidth);
 }
+
+
+
+
+
+
+
+
+// ordering
+// the order of shapes matter. The last shape that was drew will cover previous shapes.
+// Styles carry over. After the 1st iteration the previous styles will carry over to shapes that may not need them. stroke() fill() strokeWeight() noFill() noStroke()
+function setup() {
+  createCanvas(400, 400);
+  // TODO: Remove stroke
+  noStroke();
+}
+
+function draw() {
+  background(220);
+  
+  // Cheese
+  fill('#FFFF66');
+  rect(50, 50, 300, 300);
+  // End cheese
+
+  //TODO: Draw Cheese before Holes
+  // Holes
+  fill(220);
+  circle(100,100, 50);
+  circle(225,140, 60);
+  circle(150,275, 50);  
+  circle(300,250, 20);
+  // Endholes
+  
+
+
+}
