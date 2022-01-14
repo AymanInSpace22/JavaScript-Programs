@@ -1,3 +1,9 @@
+/*
+Style setting functions such as fill(), stroke(), and strokeWeight() must be called before drawing a shape and will be active for
+subsequent shapes until the functions are called again to change the styles.
+*/
+
+
 let shapeWidth = 100;
 
 function setup() {
