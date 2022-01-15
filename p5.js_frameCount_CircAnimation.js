@@ -17,6 +17,6 @@ function draw() {
   textAlign(CENTER);
 
   // TODO: create text with frameCount displayed in sketch
-  text(frameCount, width/2,height/2);
+  text(frameCount + ' \n Frames', width/2,height/2);
 
 }
