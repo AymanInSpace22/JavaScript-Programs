@@ -62,3 +62,8 @@ function turnButtonRed (){
 element.onclick = turnButtonRed;
 
 
+// anything on the DOM can be clicked. Here is an example of an inline function intialization to onclick
+let element2 = document.querySelector("#text");
+element2.onclick = function(){element2.style.color = 'purple'};
+
+
