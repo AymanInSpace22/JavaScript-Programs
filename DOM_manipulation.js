@@ -34,3 +34,10 @@ let country = document.querySelector('#oaxaca');
 document.querySelector('#more-destinations').removeChild(country);
 // this 2nd was just selects the parent, then chains removeChild() and passes in the Id with another document.querySelector
 document.querySelector('#more-destinations').removeChild(document.querySelector('#oaxaca'));
+
+
+
+
+
+//If you want to hide an element because it does not need to be loaded initially, the .hidden property allows you to hide it by assigning it as true or false:
+document.getElementById('sign').hidden = true;
