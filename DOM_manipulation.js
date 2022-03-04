@@ -67,3 +67,11 @@ let element2 = document.querySelector("#text");
 element2.onclick = function(){element2.style.color = 'purple'};
 
 
+
+
+// Traversing the DOM .parentNode .children firstChild
+// firstChild allows access the the first child of a parent node
+let first = document.body.firstChild;
+first.innerHTML = 'I am the child!';
+// parentNode allows access to the parent of the specified element
+first.parentNode.innerHTML = 'I am the parent and my inner HTML has been replaced!';
