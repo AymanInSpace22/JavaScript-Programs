@@ -37,7 +37,28 @@ document.querySelector('#more-destinations').removeChild(document.querySelector(
 
 
 
-
-
 //If you want to hide an element because it does not need to be loaded initially, the .hidden property allows you to hide it by assigning it as true or false:
 document.getElementById('sign').hidden = true;
+
+
+
+
+
+
+
+
+// onclick method (not camelcased)
+// You can add interactivity to DOM elements by assigning a function to run based on an event.
+//Events can include anything from a click to a user mousing over an element.
+//The .onclick property allows you to assign a function to run on a click event on an element:
+let element = document.querySelector("button");
+
+function turnButtonRed (){
+  element.style.backgroundColor = 'red';
+  element.style.color = 'white';
+  element.innerHTML = 'Red Button';
+}
+// when assigning onclick to a function, DO NOT put the () after the function identifier
+element.onclick = turnButtonRed;
+
+
