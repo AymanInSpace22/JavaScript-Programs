@@ -23,3 +23,21 @@ function showFortune(){
 }
 
 button.addEventListener('click', showFortune);
+
+
+
+/*
+Removing Event Handlers
+The .removeEventListener() method is used to reverse the .addEventListener() method.
+This method stops the event target from “listening” for an event to fire when it no longer needs to. .removeEventListener() also takes two arguments:
+
+The event type as a string
+The event handler function
+Check out the syntax of a .removeEventListener() method with a click event:
+
+eventTarget.removeEventListener('click', eventHandlerFunction);
+
+Because there can be multiple event handler functions associated with a particular event,
+.removeEventListener() needs both the exact event type name and the name of the event handler you want to remove. 
+If .addEventListener() was provided an anonymous function, then that event listener cannot be removed.
+*/
